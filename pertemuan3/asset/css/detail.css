@@ -1,0 +1,58 @@
+.wrapper{
+    width: 1200px;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+header{
+    background-color: #778899;
+    margin-bottom: 20px;
+}
+body{
+    background-color: #ffffffff;
+}
+header ul li{
+    float: left;
+    list-style: none;
+    margin: 15px;
+}
+header ul li a {
+    color: black;
+    font-size: 20px;
+}
+header ul li a:hover{
+    color: #727272;
+    text-decoration: none;
+}
+header form{
+    margin-top: 10px;
+}
+.deskripsi-produk{
+    color: grey;
+    margin-top: -10px;
+}
+.produk{
+    background-color: #f7f7f7;
+    border: 1px solid #e1e1e1;
+    margin-top: 50px;
+}
+.asal-produk{
+    float: center;
+    margin-top: -10px;
+    color: grey;
+    font-size: 12px;
+}
+.box-detail-produk h3{
+    color: grey;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.produk h4{
+    color: black;
+}
+.produk a:hover{
+    text-decoration: none;
+}
+.produk:hover{
+    background-color: #e5e5e5;
+}

@@ -1,0 +1,63 @@
+/* untuk mengatur font style */
+body{
+    background-color: #628E90;
+    font-family: tahoma, Arial, Helvetica, sans-serif;
+}
+/* untuk mengatur posisi table */
+.table{
+    border-collapse: collapse;
+    width: 100%;
+}
+/* untuk mengatur jarak, ukuran font, serta mengatur border */
+.td{font-size: 18px; 
+    
+    padding: 3px 5px; 
+    color: #303030;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+/* untuk menambahkan warna dan mengatur besar kecilnya huruf pada th */
+th{
+    background: #CCCCCC;
+    font-size: 17px;
+    border-color: #B0B0B0;
+}
+
+th:first-child{
+    border-top-left-radius: 13px;
+}
+
+th:last-child{
+    border-top-right-radius: 13px;
+}
+
+.tombol{
+    background-color: #3D8361;
+}
+
+.bungkus{	
+    width:1118px; 
+    margin: 0 auto;
+}
+.page-header h2{
+    margin-top: 0;
+}
+table tr td:last-child a{
+    margin-right: 10px;
+    font-size: 20px;
+}
+thead{
+    background:#5F6F94;
+    color: whitesmoke;
+}
+tbody{
+    font-size:18px;
+    background: #F6FBF4;
+}
+.inpot{
+    border-radius: 10px 0px 0px 10px;
+    margin-right: 0px;
+    padding: 4px;
+    height: 3rem;
+    width: 21rem;
+}
